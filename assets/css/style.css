@@ -2907,6 +2907,8 @@ textarea {
 
 .promo-single-items .icon img {
   position: absolute;
+  width: 39px;
+  height: 38px;
   -o-object-fit: cover;
   object-fit: cover;
   top: 50%;
@@ -5575,6 +5577,10 @@ textarea {
 .mobile-action-link a {
   color: #1b5fc7;
 }
+.mobile-logo img {
+  width: 190px;
+  height: 45px;
+}
 
 /*****************************
 * Layout - Offcanvas Menu
@@ -5582,6 +5588,10 @@ textarea {
 
 /*Mobile Menu Bottom Area*/
 
+.offcanvas-header img {
+  width: 160px;
+  height: 50px;
+}
 .offcanvas-menu {
   margin: 20px 0;
   font-size: 16px;
@@ -5626,14 +5636,14 @@ textarea {
 }
 
 .offcanvas-menu-expand::after {
-  content: "\eaa0";
+  content: "\f054";
   position: absolute;
-  font-family: "IcoFont";
+  font-family: "fontawesome";
   right: 0;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   color: #101320;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.8;
   cursor: pointer;
 }
